@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "microblog"
+version = "0.1.0"
+description = ""
+authors = ["Giru <yagofarov.vadim@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.95.1"}
+sqlalchemy = "^2.0.12"
+psycopg2 = "^2.9.6"
+alembic = "^1.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
